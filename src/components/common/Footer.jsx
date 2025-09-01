@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-[#232F3E] text-white px-4 py-8 text-sm">
+    <footer className="w-full bg-[#232F3E] text-white px-4 py-8 text-sm">
       <div className="max-w-7xl mx-auto">
+        {/* Grid Links */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
           <div>
             <p className="font-bold">Amazon Music</p>
@@ -28,7 +29,8 @@ function Footer() {
           <div>
             <p className="font-bold">Sell on Amazon</p>
             <p>Start a Selling Account</p>
-          </div><div>
+          </div>
+          <div>
             <p className="font-bold">Amazon Business</p>
             <p>Everything For Your Business</p>
           </div>
@@ -59,11 +61,13 @@ function Footer() {
           <div>
             <p className="font-bold">IMDbPro</p>
             <p>Get Info Entertainment Professionals Need</p>
-          </div><div>
+          </div>
+          <div>
             <p className="font-bold">Kindle Direct Publishing</p>
             <p>Indie Digital & Print Publishing Made Easy</p>
           </div>
-          <div><p className="font-bold">Prime Video Direct</p>
+          <div>
+            <p className="font-bold">Prime Video Direct</p>
             <p>Video Distribution Made Easy</p>
           </div>
           <div>
@@ -97,25 +101,30 @@ function Footer() {
           <div>
             <p className="font-bold">Amazon Subscription Boxes</p>
             <p>Top subscription boxes – right to your door</p>
-          </div> <div>
+          </div>
+          <div>
             <p className="font-bold">PillPack</p>
             <p>Pharmacy Simplified</p>
-          </div><div>
+          </div>
+          <div>
             <p className="font-bold">Veeqo</p>
             <p>Shipping Software Inventory Management</p>
           </div>
         </div>
 
+        {/* Bottom Section */}
         <div className="text-gray-300 text-xs text-center mt-8 space-x-4">
           <span>Conditions of Use</span>
           <span>Privacy Notice</span>
           <span>Consumer Health Data Privacy Disclosure</span>
           <span>Your Ads Privacy Choices</span>
-          <p className="mt-2">© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+          <p className="mt-2">
+            © 1996-2025, Amazon.com, Inc. or its affiliates
+          </p>
         </div>
       </div>
     </footer>
   );
 }
 
-export default Footer
+export default Footer;
